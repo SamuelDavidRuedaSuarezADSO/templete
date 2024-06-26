@@ -1,0 +1,19 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  background-color: #000;
+  color: #fff;
+}
+.cards{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+.card{
+  border: solid 1px #fff;
+  width: 250px;
+  padding: 10px;
+}

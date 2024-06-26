@@ -1,0 +1,40 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.main{
+  margin: 20px 20px;
+}
+.boton{
+  height: 40px;
+  padding: 0 10px;
+  margin-left: 5px;
+}
+.input{
+  width: 200px;
+  height: 40px;
+  padding-left: 12px;
+  font-size: 1rem;
+}
+.normal{
+  outline: 2px solid green;
+  border: solid 2px green;
+
+}
+.error{
+  outline: none;
+  border: solid 3px red;
+}
+
+.cards{
+  margin-top: 12px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+.card{
+  border: solid 1px #000;
+  width: 250px;
+  padding: 10px;
+}
